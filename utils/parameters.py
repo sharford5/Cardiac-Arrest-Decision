@@ -8,7 +8,7 @@ parser.add_argument("--agency_list_train", default='223', type=str)  # 432 223 7
 # parser.add_argument("--inputs", default='0 1 2 3 4 6 7 8 9 10 11 12 13 14', type=str) # 0 1 2 3 4 6 7 8 9 10 11 12 13 14
 # parser.add_argument("--outputs", default='17', type=str)
 
-parser.add_argument("--mt", default='Cardiac_Stent', type=str)  #  Coronary_Angiography  Cardiac_Stent   CABG
+parser.add_argument("--mt", default='Coronary_Angiography', type=str)  #  Coronary_Angiography  Cardiac_Stent   CABG
 
 parser.add_argument("--version", default='v1', type=str)
 # parser.add_argument("--diff_rate", default=0.03, type=float)
